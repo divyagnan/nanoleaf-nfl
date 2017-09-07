@@ -1,0 +1,17 @@
+{
+  "name": "nanoleaf-nfl",
+  "version": "1.0.0",
+  "description": "color your nanoleaf based on nfl teams",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack dev"
+  },
+  "author": "divyagnan",
+  "license": "MIT",
+  "devDependencies": {
+    "backpack-core": "^0.4.2"
+  },
+  "dependencies": {
+    "nanoleaves": "^1.2.0"
+  }
+}
