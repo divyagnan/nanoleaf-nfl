@@ -5,6 +5,7 @@
  * @param {number} start - the index at which to start the slice
  * @param {number} stop - the number at which to end the slice
  * @param {string} teamAbbreviation - the abbreviation of the team
+ * @returns {array} array of color transformations
  */
 const colorPanels = (panels, colors, start, stop, teamAbbreviation) =>
   panels.slice(start, stop).map(p => ({
