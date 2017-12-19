@@ -5,17 +5,20 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "backpack dev",
-    "docs": "documentation readme src/index.js --section=API"
+    "docs": "documentation readme src/index.js --section=API",
+    "lint": "eslint src"
   },
   "author": "divyagnan",
   "license": "MIT",
   "devDependencies": {
-    "backpack-core": "^0.4.2",
-    "documentation": "^5.3.1"
+    "babel-eslint": "^7.2.3",
+    "backpack-core": "^0.4.3",
+    "documentation": "^5.3.5",
+    "eslint": "^4.13.1"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "date-fns": "^1.28.5",
+    "axios": "^0.17.1",
+    "date-fns": "^1.29.0",
     "nanoleaves": "^1.2.0"
   }
 }
